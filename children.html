@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>给宝宝的表白信</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            background-color: #fff5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        .love-letter {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #ff6b81;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        .photo-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+        }
+        .photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .photo:hover {
+            transform: scale(1.05);
+        }
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .message {
+            font-size: 1.2em;
+            line-height: 1.8;
+            margin: 20px 0;
+            text-align: left;
+            padding: 0 20px;
+        }
+        .heart {
+            color: #ff6b81;
+            font-size: 1.5em;
+            animation: heartbeat 1.5s infinite;
+        }
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            25% { transform: scale(1.1); }
+            50% { transform: scale(1); }
+            75% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        .signature {
+            font-style: italic;
+            margin-top: 30px;
+            text-align: right;
+            font-size: 1.3em;
+            color: #ff6b81;
+        }
+    </style>
+</head>
+<body>
+<div class="love-letter">
+    <h1>❤️ 给宝宝的表白信 ❤️</h1>
+
+    <div class="photo-gallery">
+        <div class="photo">
+            <img src="images/8a52cedff6b959665248717e9f5b71d.jpg" alt="宝宝小时候">
+        </div>
+        <div class="photo">
+            <img src="images/f597f80ce20232dbd24eada0e01870f.jpg" alt="可爱的你">
+        </div>
+        <div class="photo">
+            <img src="images/b1632bea69a9665507d5fd5c25d0e62.jpg" alt="你的过去">
+        </div>
+    </div>
+
+    <div class="message">
+        <p>亲爱的宝宝：</p>
+        <p>虽然没能早点遇见你，但看到你小时候的照片，依然觉得好可爱！</p>
+        <p>你的笑容像阳光一样温暖，让我忍不住想抱抱小时候的你。</p>
+        <p>现在的你，依然是我生命中最美好的存在。</p>
+        <p>未来，我们一起创造更多回忆，好吗？</p>
+        <p class="heart">❤️</p>
+    </div>
+
+    <div class="signature">
+        —— 永远爱你的我
+    </div>
+</div>
+</body>
+</html>
